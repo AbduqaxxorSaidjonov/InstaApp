@@ -7,25 +7,37 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		76921A8E279635D300961EF2 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76921A8C279635D300961EF2 /* SignUpViewController.swift */; };
+		76921A8F279635D300961EF2 /* SignUpViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 76921A8D279635D300961EF2 /* SignUpViewController.xib */; };
+		76921A91279661D600961EF2 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76921A90279661D600961EF2 /* BaseViewController.swift */; };
 		76DC4EB62795982900CC6F4D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76DC4EB52795982900CC6F4D /* AppDelegate.swift */; };
 		76DC4EB82795982900CC6F4D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76DC4EB72795982900CC6F4D /* SceneDelegate.swift */; };
-		76DC4EBA2795982900CC6F4D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76DC4EB92795982900CC6F4D /* ViewController.swift */; };
 		76DC4EBD2795982900CC6F4D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 76DC4EBB2795982900CC6F4D /* Main.storyboard */; };
 		76DC4EC02795982900CC6F4D /* InstaApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 76DC4EBE2795982900CC6F4D /* InstaApp.xcdatamodeld */; };
 		76DC4EC22795982A00CC6F4D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 76DC4EC12795982A00CC6F4D /* Assets.xcassets */; };
 		76DC4EC52795982A00CC6F4D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 76DC4EC32795982A00CC6F4D /* LaunchScreen.storyboard */; };
+		76DC4ED12795986D00CC6F4D /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76DC4ECF2795986D00CC6F4D /* HomeViewController.swift */; };
+		76DC4ED22795986D00CC6F4D /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 76DC4ED02795986D00CC6F4D /* HomeViewController.xib */; };
+		76DC4ED52795987F00CC6F4D /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76DC4ED32795987F00CC6F4D /* SignInViewController.swift */; };
+		76DC4ED62795987F00CC6F4D /* SignInViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 76DC4ED42795987F00CC6F4D /* SignInViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		76921A8C279635D300961EF2 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		76921A8D279635D300961EF2 /* SignUpViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SignUpViewController.xib; sourceTree = "<group>"; };
+		76921A90279661D600961EF2 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
 		76DC4EB22795982900CC6F4D /* InstaApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InstaApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		76DC4EB52795982900CC6F4D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		76DC4EB72795982900CC6F4D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		76DC4EB92795982900CC6F4D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		76DC4EBC2795982900CC6F4D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		76DC4EBF2795982900CC6F4D /* InstaApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = InstaApp.xcdatamodel; sourceTree = "<group>"; };
 		76DC4EC12795982A00CC6F4D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		76DC4EC42795982A00CC6F4D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		76DC4EC62795982A00CC6F4D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		76DC4ECF2795986D00CC6F4D /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		76DC4ED02795986D00CC6F4D /* HomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
+		76DC4ED32795987F00CC6F4D /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		76DC4ED42795987F00CC6F4D /* SignInViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SignInViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,16 +70,38 @@
 		76DC4EB42795982900CC6F4D /* InstaApp */ = {
 			isa = PBXGroup;
 			children = (
+				76DC4ECC2795983800CC6F4D /* controllers */,
+				76DC4ECE2795985100CC6F4D /* apputils */,
 				76DC4EB52795982900CC6F4D /* AppDelegate.swift */,
 				76DC4EB72795982900CC6F4D /* SceneDelegate.swift */,
-				76DC4EB92795982900CC6F4D /* ViewController.swift */,
-				76DC4EBB2795982900CC6F4D /* Main.storyboard */,
-				76DC4EC12795982A00CC6F4D /* Assets.xcassets */,
-				76DC4EC32795982A00CC6F4D /* LaunchScreen.storyboard */,
 				76DC4EC62795982A00CC6F4D /* Info.plist */,
 				76DC4EBE2795982900CC6F4D /* InstaApp.xcdatamodeld */,
 			);
 			path = InstaApp;
+			sourceTree = "<group>";
+		};
+		76DC4ECC2795983800CC6F4D /* controllers */ = {
+			isa = PBXGroup;
+			children = (
+				76921A90279661D600961EF2 /* BaseViewController.swift */,
+				76DC4ECF2795986D00CC6F4D /* HomeViewController.swift */,
+				76DC4ED02795986D00CC6F4D /* HomeViewController.xib */,
+				76DC4ED32795987F00CC6F4D /* SignInViewController.swift */,
+				76DC4ED42795987F00CC6F4D /* SignInViewController.xib */,
+				76921A8C279635D300961EF2 /* SignUpViewController.swift */,
+				76921A8D279635D300961EF2 /* SignUpViewController.xib */,
+			);
+			path = controllers;
+			sourceTree = "<group>";
+		};
+		76DC4ECE2795985100CC6F4D /* apputils */ = {
+			isa = PBXGroup;
+			children = (
+				76DC4EBB2795982900CC6F4D /* Main.storyboard */,
+				76DC4EC12795982A00CC6F4D /* Assets.xcassets */,
+				76DC4EC32795982A00CC6F4D /* LaunchScreen.storyboard */,
+			);
+			path = apputils;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -128,9 +162,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				76DC4ED62795987F00CC6F4D /* SignInViewController.xib in Resources */,
 				76DC4EC52795982A00CC6F4D /* LaunchScreen.storyboard in Resources */,
 				76DC4EC22795982A00CC6F4D /* Assets.xcassets in Resources */,
 				76DC4EBD2795982900CC6F4D /* Main.storyboard in Resources */,
+				76921A8F279635D300961EF2 /* SignUpViewController.xib in Resources */,
+				76DC4ED22795986D00CC6F4D /* HomeViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -141,9 +178,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				76DC4EBA2795982900CC6F4D /* ViewController.swift in Sources */,
+				76921A8E279635D300961EF2 /* SignUpViewController.swift in Sources */,
+				76DC4ED12795986D00CC6F4D /* HomeViewController.swift in Sources */,
+				76DC4ED52795987F00CC6F4D /* SignInViewController.swift in Sources */,
 				76DC4EC02795982900CC6F4D /* InstaApp.xcdatamodeld in Sources */,
 				76DC4EB62795982900CC6F4D /* AppDelegate.swift in Sources */,
+				76921A91279661D600961EF2 /* BaseViewController.swift in Sources */,
 				76DC4EB82795982900CC6F4D /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
