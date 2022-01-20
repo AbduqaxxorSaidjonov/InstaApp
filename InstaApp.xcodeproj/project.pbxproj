@@ -20,6 +20,9 @@
 		76DC4ED22795986D00CC6F4D /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 76DC4ED02795986D00CC6F4D /* HomeViewController.xib */; };
 		76DC4ED52795987F00CC6F4D /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76DC4ED32795987F00CC6F4D /* SignInViewController.swift */; };
 		76DC4ED62795987F00CC6F4D /* SignInViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 76DC4ED42795987F00CC6F4D /* SignInViewController.xib */; };
+		76F23DBB27985D2200D01C34 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76F23DBA27985D2200D01C34 /* Post.swift */; };
+		76F23DBF2798A1F200D01C34 /* PostTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76F23DBD2798A1F200D01C34 /* PostTableViewCell.swift */; };
+		76F23DC02798A1F200D01C34 /* PostTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 76F23DBE2798A1F200D01C34 /* PostTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +41,9 @@
 		76DC4ED02795986D00CC6F4D /* HomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
 		76DC4ED32795987F00CC6F4D /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
 		76DC4ED42795987F00CC6F4D /* SignInViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SignInViewController.xib; sourceTree = "<group>"; };
+		76F23DBA27985D2200D01C34 /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		76F23DBD2798A1F200D01C34 /* PostTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostTableViewCell.swift; sourceTree = "<group>"; };
+		76F23DBE2798A1F200D01C34 /* PostTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PostTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +76,8 @@
 		76DC4EB42795982900CC6F4D /* InstaApp */ = {
 			isa = PBXGroup;
 			children = (
+				76F23DBC2798A1D100D01C34 /* cell */,
+				76F23DB927985D0C00D01C34 /* model */,
 				76DC4ECC2795983800CC6F4D /* controllers */,
 				76DC4ECE2795985100CC6F4D /* apputils */,
 				76DC4EB52795982900CC6F4D /* AppDelegate.swift */,
@@ -102,6 +110,23 @@
 				76DC4EC32795982A00CC6F4D /* LaunchScreen.storyboard */,
 			);
 			path = apputils;
+			sourceTree = "<group>";
+		};
+		76F23DB927985D0C00D01C34 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				76F23DBA27985D2200D01C34 /* Post.swift */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		76F23DBC2798A1D100D01C34 /* cell */ = {
+			isa = PBXGroup;
+			children = (
+				76F23DBD2798A1F200D01C34 /* PostTableViewCell.swift */,
+				76F23DBE2798A1F200D01C34 /* PostTableViewCell.xib */,
+			);
+			path = cell;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -166,6 +191,7 @@
 				76DC4EC52795982A00CC6F4D /* LaunchScreen.storyboard in Resources */,
 				76DC4EC22795982A00CC6F4D /* Assets.xcassets in Resources */,
 				76DC4EBD2795982900CC6F4D /* Main.storyboard in Resources */,
+				76F23DC02798A1F200D01C34 /* PostTableViewCell.xib in Resources */,
 				76921A8F279635D300961EF2 /* SignUpViewController.xib in Resources */,
 				76DC4ED22795986D00CC6F4D /* HomeViewController.xib in Resources */,
 			);
@@ -181,10 +207,12 @@
 				76921A8E279635D300961EF2 /* SignUpViewController.swift in Sources */,
 				76DC4ED12795986D00CC6F4D /* HomeViewController.swift in Sources */,
 				76DC4ED52795987F00CC6F4D /* SignInViewController.swift in Sources */,
+				76F23DBB27985D2200D01C34 /* Post.swift in Sources */,
 				76DC4EC02795982900CC6F4D /* InstaApp.xcdatamodeld in Sources */,
 				76DC4EB62795982900CC6F4D /* AppDelegate.swift in Sources */,
 				76921A91279661D600961EF2 /* BaseViewController.swift in Sources */,
 				76DC4EB82795982900CC6F4D /* SceneDelegate.swift in Sources */,
+				76F23DBF2798A1F200D01C34 /* PostTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
